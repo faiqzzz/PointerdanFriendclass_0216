@@ -11,6 +11,8 @@ using namespace std;
     cout << " Alamat memori : " << c << endl;
     cout << " Nilai dari C : " << *c << endl;
     c = &y;
-    
+    cout << " Alamat memori : " << c << endl;
+    cout << " Nilai dari C : " << *c << endl;
 
+    
 }
