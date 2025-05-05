@@ -14,5 +14,10 @@ using namespace std;
     cout << " Alamat memori : " << c << endl;
     cout << " Nilai dari C : " << *c << endl;
 
+    // reference
+    int &d = b;
+    cout << " Nilai " << d << endl;
+    cout << " reference " << &d << endl;
+
     
 }
