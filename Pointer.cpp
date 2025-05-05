@@ -10,6 +10,7 @@ using namespace std;
     int *c = &a;
     cout << " Alamat memori : " << c << endl;
     cout << " Nilai dari C : " << *c << endl;
-   
+    c = &y;
+    
 
 }
